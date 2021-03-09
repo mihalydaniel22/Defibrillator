@@ -26,5 +26,17 @@ namespace Defibrillator
         {
             Application.Exit();
         }
+
+        private void btnUj_Click(object sender, EventArgs e)
+        {
+            tbX.Clear();
+            tbY.Clear();
+            lbKiiras.Items.Clear();
+        }
+
+        private void btnLekeres_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
